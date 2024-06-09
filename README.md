@@ -57,5 +57,16 @@ you have to open them in same time
 
 
 
-also if something go wrong check requirement.txt file:
+Troubleshooting:
+
+If you encounter any issues, here are some steps to troubleshoot:
+
+Check Dependencies: Ensure that all required dependencies are installed. If any are missing, refer to the requirements.txt file and install them using Pipenv.
+
+Create Superuser: To add new courses, blogs, gym trainers, or newsletters, access the Django admin panel at http://127.0.0.1:8000/admin. Log in with the superuser credentials created during setup. From there, you can manage and add new content easily.
+
+Activate Virtual Environment: Before installing Python dependencies or running the Django server, activate the virtual environment using the command pipenv shell.
+
+New Content: To add new courses, blogs, gym trainers, or newsletters, navigate to the respective sections in the Django admin panel. Click on the "Add" button to create new entries. Make sure to fill in all required fields and save your changes.
+
 
